@@ -14,6 +14,26 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("Scroll")}
                 style={styles.button}
             />   
+            <Button 
+                title="Decay"
+                onPress={() => navigation.navigate("Decay")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Add"
+                onPress={() => navigation.navigate("Add")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Parallel"
+                onPress={() => navigation.navigate("Parallel")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Sequence"
+                onPress={() => navigation.navigate("Sequence")}
+                style={styles.button}
+            />   
         </View>
     )
 }

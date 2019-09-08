@@ -4,6 +4,10 @@ import { createStackNavigator } from 'react-navigation-stack'
 
 import MainScreen from './src/screens/MainScreen'
 import ScrollScreen from './src/screens/ScrollScreen'
+import DecayScreen from './src/screens/DecayScreen'
+import AddScreen from './src/screens/AddScreen'
+import ParallelScreen from './src/screens/ParallelScreen'
+import SequenceScreen from './src/screens/SequenceScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -11,7 +15,19 @@ const MainNavigator = createStackNavigator({
   },
   Scroll: {
     screen: ScrollScreen
-  }
+  },
+  Decay: {
+    screen: DecayScreen
+  },
+  Sequence: {
+    screen: SequenceScreen
+  },
+  Parallel: {
+    screen: ParallelScreen
+  },
+  Add: {
+    screen: AddScreen
+  },
 })
 
 const App = createAppContainer(MainNavigator)
