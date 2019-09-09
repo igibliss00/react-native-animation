@@ -34,6 +34,16 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("Sequence")}
                 style={styles.button}
             />   
+            <Button 
+                title="Interpolate"
+                onPress={() => navigation.navigate("Interpolate")}
+                style={styles.button}
+            />   
+            <Button 
+                title="CreateAnimated"
+                onPress={() => navigation.navigate("CreateAnimated")}
+                style={styles.button}
+            />   
         </View>
     )
 }

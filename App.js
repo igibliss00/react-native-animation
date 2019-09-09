@@ -8,6 +8,8 @@ import DecayScreen from './src/screens/DecayScreen'
 import AddScreen from './src/screens/AddScreen'
 import ParallelScreen from './src/screens/ParallelScreen'
 import SequenceScreen from './src/screens/SequenceScreen'
+import InterpolateScreen from './src/screens/InterpolateScreen'
+import CreateAnimatedScreen from './src/screens/CreateAnimatedScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -18,6 +20,12 @@ const MainNavigator = createStackNavigator({
   },
   Decay: {
     screen: DecayScreen
+  },
+  CreateAnimated: {
+    screen: CreateAnimatedScreen
+  },
+  Interpolate: {
+    screen: InterpolateScreen
   },
   Sequence: {
     screen: SequenceScreen

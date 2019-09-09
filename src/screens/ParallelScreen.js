@@ -37,7 +37,6 @@ export default Parallel = () => {
                 <Animated.View style={[styles.box, animatedStyles]} />
             </TouchableOpacity>
         </View>
-
     )
 }
 
