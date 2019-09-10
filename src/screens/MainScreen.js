@@ -44,6 +44,11 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("CreateAnimated")}
                 style={styles.button}
             />   
+            <Button 
+                title="D3Number"
+                onPress={() => navigation.navigate("D3Number")}
+                style={styles.button}
+            />   
         </View>
     )
 }

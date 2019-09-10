@@ -10,6 +10,7 @@ import ParallelScreen from './src/screens/ParallelScreen'
 import SequenceScreen from './src/screens/SequenceScreen'
 import InterpolateScreen from './src/screens/InterpolateScreen'
 import CreateAnimatedScreen from './src/screens/CreateAnimatedScreen'
+import D3NumberScreen from './src/screens/D3NumberScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -20,6 +21,9 @@ const MainNavigator = createStackNavigator({
   },
   Decay: {
     screen: DecayScreen
+  },
+  D3Number: {
+    screen: D3NumberScreen
   },
   CreateAnimated: {
     screen: CreateAnimatedScreen
