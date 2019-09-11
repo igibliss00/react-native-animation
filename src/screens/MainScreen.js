@@ -49,6 +49,26 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("D3Number")}
                 style={styles.button}
             />   
+            <Button 
+                title="D3Path"
+                onPress={() => navigation.navigate("D3Path")}
+                style={styles.button}
+            />   
+            <Button 
+                title="SVG"
+                onPress={() => navigation.navigate("SVG")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Flubber"
+                onPress={() => navigation.navigate("Flubber")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Cliff"
+                onPress={() => navigation.navigate("Cliff")}
+                style={styles.button}
+            />   
         </View>
     )
 }
@@ -60,7 +80,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     button: {
-        height: 50,
+        height: 45,
         margin: 5,
     }
 })

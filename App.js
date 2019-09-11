@@ -11,6 +11,10 @@ import SequenceScreen from './src/screens/SequenceScreen'
 import InterpolateScreen from './src/screens/InterpolateScreen'
 import CreateAnimatedScreen from './src/screens/CreateAnimatedScreen'
 import D3NumberScreen from './src/screens/D3NumberScreen'
+import D3PathScreen from './src/screens/D3PathScreen'
+import SVGScreen from './src/screens/SVGScreen'
+import FlubberScreen from './src/screens/FlubberScreen'
+import CliffScreen from './src/screens/CliffScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -21,6 +25,18 @@ const MainNavigator = createStackNavigator({
   },
   Decay: {
     screen: DecayScreen
+  },
+  Cliff: {
+    screen: CliffScreen
+  },
+  Flubber: {
+    screen: FlubberScreen
+  },
+  SVG: {
+    screen: SVGScreen
+  },
+  D3Path: {
+    screen: D3PathScreen
   },
   D3Number: {
     screen: D3NumberScreen
