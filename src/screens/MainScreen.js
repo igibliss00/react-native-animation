@@ -69,6 +69,11 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("Cliff")}
                 style={styles.button}
             />   
+            <Button 
+                title="Corner"
+                onPress={() => navigation.navigate("Corner")}
+                style={styles.button}
+            />   
         </View>
     )
 }

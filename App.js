@@ -15,6 +15,7 @@ import D3PathScreen from './src/screens/D3PathScreen'
 import SVGScreen from './src/screens/SVGScreen'
 import FlubberScreen from './src/screens/FlubberScreen'
 import CliffScreen from './src/screens/CliffScreen'
+import CornerScreen from './src/screens/CornerScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -25,6 +26,9 @@ const MainNavigator = createStackNavigator({
   },
   Decay: {
     screen: DecayScreen
+  },
+  Corner: {
+    screen: CornerScreen
   },
   Cliff: {
     screen: CliffScreen
