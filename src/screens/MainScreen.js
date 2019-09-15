@@ -74,6 +74,36 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("Corner")}
                 style={styles.button}
             />   
+            <Button 
+                title="Card"
+                onPress={() => navigation.navigate("Card")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Stagger"
+                onPress={() => navigation.navigate("Stagger")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Progress"
+                onPress={() => navigation.navigate("Progress")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Notification"
+                onPress={() => navigation.navigate("Notification")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Question"
+                onPress={() => navigation.navigate("Question")}
+                style={styles.button}
+            />   
+            <Button 
+                title="Photo"
+                onPress={() => navigation.navigate("Photo")}
+                style={styles.button}
+            />   
         </View>
     )
 }
@@ -83,9 +113,12 @@ const styles = StyleSheet.create({
         flex: 1,
         alignContent: 'center',
         justifyContent: 'center',
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap'
     },
     button: {
-        height: 45,
+        width: 300,
         margin: 5,
     }
 })

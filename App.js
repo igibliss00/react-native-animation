@@ -16,6 +16,12 @@ import SVGScreen from './src/screens/SVGScreen'
 import FlubberScreen from './src/screens/FlubberScreen'
 import CliffScreen from './src/screens/CliffScreen'
 import CornerScreen from './src/screens/CornerScreen'
+import CardScreen from './src/screens/CardScreen'
+import StaggerScreen from './src/screens/StaggerScreen'
+import ProgressScreen from './src/screens/ProgressScreen'
+import NotificationScreen from './src/screens/NotificationScreen'
+import PhotoScreen from './src/screens/PhotoScreen'
+import QuestionScreen from './src/screens/QuestionScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -26,6 +32,24 @@ const MainNavigator = createStackNavigator({
   },
   Decay: {
     screen: DecayScreen
+  },
+  Photo: {
+    screen: PhotoScreen
+  },
+  Question: {
+    screen: QuestionScreen
+  },
+  Notification: {
+    screen: NotificationScreen
+  },
+  Progress: {
+    screen: ProgressScreen
+  },
+  Stagger: {
+    screen: StaggerScreen
+  },
+  Card: {
+    screen: CardScreen
   },
   Corner: {
     screen: CornerScreen
