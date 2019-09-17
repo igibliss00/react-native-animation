@@ -104,6 +104,11 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate("Photo")}
                 style={styles.button}
             />   
+            <Button 
+                title="Icon"
+                onPress={() => navigation.navigate("Icon")}
+                style={styles.button}
+            />   
         </View>
     )
 }

@@ -22,6 +22,7 @@ import ProgressScreen from './src/screens/ProgressScreen'
 import NotificationScreen from './src/screens/NotificationScreen'
 import PhotoScreen from './src/screens/PhotoScreen'
 import QuestionScreen from './src/screens/QuestionScreen'
+import IconScreen from './src/screens/IconScreen'
 
 const MainNavigator = createStackNavigator({
   Main: {
@@ -35,6 +36,9 @@ const MainNavigator = createStackNavigator({
   },
   Photo: {
     screen: PhotoScreen
+  },
+  Icon: {
+    screen: IconScreen
   },
   Question: {
     screen: QuestionScreen

@@ -84,7 +84,7 @@ export default Photo = () => {
                     toValue: tPageX,
                 }),
                 Animated.spring(position.y, {
-                    toValue: tPageY,
+                    toValue: tPageY - 68,
                 }),
                 Animated.spring(size.x, {
                     toValue: tWidth,
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
         width: null,
         height: null,
         position: "absolute",
-        top: 0,
+        top: 0, 
         left: 0,
     },
     topContent: {
